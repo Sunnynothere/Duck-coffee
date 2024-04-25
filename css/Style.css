@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Barlow:wght@600&family=Josefin+Sans:ital,wght@1,300&family=Jost:wght@300&family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #efba5c;
+    background-color: #e5e5f7;
+    font-family: 'Lato';
+}
+
+a {
+    color: #603203;
+    text-decoration: none;
+    /* font-size: 40px; */
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Navigation*/
+
+.nav-main {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-brand {
+    width: 60px;
+    height: 60px;
+    float: left;
+    border-radius: 200px;
+}
+
+.icono {
+    border-radius: 200px;
+}
+
+.menu-btn {
+    color: #603203;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+}
+
+
+/* NAV LEFT */
+
+.nav-main ul {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-main ul.nav-menu img {
+    width: 35px;
+    margin-left: 15px;
+}
+
+
+/* SHOWCASE */
+
+.showcase {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    color: #e5e5f7;
+    background: url("../assets/pexels-toni-cuenca-585750.jpg") no-repeat center center/cover;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    padding: 0 0;
+}
+
+.showcase h1 {
+    padding: 60px 0 0 40px;
+    width: 40%;
+    font-size: 30px;
+    
+}
+
+.showcase p {
+    width: 40%;
+    padding: 40px 0 0 40px;
+    font-size: 20px;
+}
+
+/* ABOUT */
+
+.content_container {
+    padding: 0 0;
+}
+
+.icon-brand {
+    width: 60px;
+    height: 60px;
+    float: left;
+    border-radius: 200px;
+}
+
+.about_section {
+    padding: 80px;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about_content {
+    display: flex;
+    align-items: center;
+}
+
+.duck-brand {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 10px rgba(136, 88, 24, 0.473);
+}
+
+.about_text {
+    font-weight: normal;
+    font-size: 18px;
+    max-width: 800px;
+    padding-left: 40px;
+    line-height: 26px;
+}
+
+/* TYPES OF ROAST*/
+
+.roast {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 52px;
+}
+
+.roast img {
+    width: 20%;
+    height: auto;
+    border-radius: 200px;
+    margin-top: 20px;
+}
+
+.roast_left {
+    align-self: stretch;
+    height: 250px;
+    position: relative;
+}
+
+.roast_left img {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    height: 250px; 
+    width: 250px;
+}
+
+.left {
+    position: absolute;
+    width: 910px;
+    height: 170px;
+    left: 280px;
+    top: 52px;
+}
+
+.left h3 {
+    left: 0px; top: 0px; position: absolute; color: black; font-size: 25px; font-family: Lato; font-weight: 700; word-wrap: break-word;
+}
+
+.left p {
+    width: 910px; height: 130px; left: 0px; top: 45px; position: absolute; text-align: justify; color: black; font-size: 20px; font-family: Lato; font-weight: 400; word-wrap: break-word;
+}
+
+.roast_right {
+    align-self: stretch; height: 250px; position: relative;
+}
+
+.roast_right img {
+    width: 250px; height: 250px; left: 970px; top: 0px; position: absolute;
+}
+
+.right {
+    width: 910px; height: 170px; left: 25px; top: 52px; position: absolute;
+}
+
+.right h3 {
+    left: 0px; top: 0px; position: absolute; color: black; font-size: 25px; font-family: Lato; font-weight: 700; word-wrap: break-word;
+}
+
+.right p {
+    width: 910px; height: 130px; left: 0px; top: 45px; position: absolute; text-align: justify; color: black; font-size: 20px; font-family: Lato; font-weight: 400; word-wrap: break-word;
+}
+
+/* COUNTRIES */
+
+.contries_container, h1{
+    padding-top: 80px;
+}
+
+.countries_names {
+    padding: 20px;
+}
+
+.flags {
+    width: 20%;
+}
+
+/* BANNER & FOOTER */
+
+.banner {
+    width: 100%;
+    height: 350px;
+    background: url("../assets/plant.jpg");
+    margin-bottom: 40px;
+    margin-top: 110px;
+    border-radius: 15px;
+}
+
+.banner .content {
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: #e5e5f7;
+}
+
+.banner p,
+.banner h4 {
+    margin: 10px 0 0 20px;
+    font-size: 22px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 950px) {
+    .nav-main ul.nav-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 80px;
+        margin-left: 80px;
+        background: #603103c4;
+        opacity: .9;
+        transform: translateX(-850px);
+        transition: transform .5s ease-in-out;
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-10px);
+    }
+
+    .nav-main ul.nav-menu li a {
+        color: #e5e5f7;
+        padding: 20px;
+        
+    }
+   
+    .roast {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .roast img {
+        width: 100%;
+    }
+
+    .banner .content {
+        width: 80%;
+    }
+
+    .showcase h2,
+    .showcase p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .roast {
+        grid-template-columns: 1fr;
+    }
+
+    .roast img {
+        height: 60%;
+        width: 100%;
+    }
+
+    .banner .content {
+        width: 94%;
+        padding: 60px 20px;
+    }
+
+    .nav-main ul.nav-menu {
+        position: absolute;
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-2px);
+    }
+
+
+}
+
+/* FIGMA
+<div style="width: 100%; height: 100%; position: relative; background: white">
+    <div style="left: 246px; top: 162px; position: absolute; color: black; font-size: 50px; font-family: Lato; font-weight: 700; word-wrap: break-word">BRAZIL</div>
+    <img style="width: 503px; height: 297px; left: 165px; top: 264px; position: absolute" src="https://via.placeholder.com/503x297" />
+    <div style="width: 1113px; height: 357px; left: 698px; top: 270px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Lato; font-weight: 700; word-wrap: break-word">Brazil is the largest country in Latin America and the fifth largest country in the world. <br/>Brazil is a diverse country with a rich history and culture. It is a popular tourist destination, known for its beaches, rainforests, mountains, and historic cities.Its climate is tropical in most regions. <br/><br/>How does this help the coffee production?<br/>Tropical climates are ideal for coffee production, it provides:Warm temperatures, High humidity & Abundant rainfall. In addition to these conditions, tropical climates also provide fertile soil and plenty of sunshine, which are also important for coffee bean production.<br/><br/><br/></div>
+    <div style="width: 1113px; height: 414px; left: 165px; top: 515px; position: absolute; text-align: justify; color: black; font-size: 25px; font-family: Lato; font-weight: 700; word-wrap: break-word">What about their coffee?<br/>Brazil is the largest producer and exporter of coffee in the world. It produces about 30% of the world's coffee.<br/>Brazil is known for its smooth and balanced coffees.<br/>The main coffee-producing states in Brazil are Minas Gerais, São Paulo, Paraná, and Bahia.<br/>Coffee is an important part of Brazilian culture. It is consumed throughout the country, from cities to rural areas. <br/>Brazilian coffee is popular all over the world, and is exported to over 150 countries.</div>
+</div>
+*/
