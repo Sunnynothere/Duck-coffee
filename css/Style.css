@@ -217,6 +217,18 @@ ul {
     width: 910px; height: 130px; left: 0px; top: 45px; position: absolute; text-align: justify; color: black; font-size: 20px; font-family: Lato; font-weight: 400; word-wrap: break-word;
 }
 
+/* BREW METHODS */
+
+.process_container {
+    display: flex;
+    align-items: center;
+    padding: 18px;
+}
+
+.pour-over_container {
+    padding: 18px;
+}
+
 /* COUNTRIES */
 
 .contries_container, h1{
