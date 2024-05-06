@@ -14,14 +14,14 @@
     </head>
     
     <body>
-        
-        <div class="menu-btn">
-            <i class="fas fa-coffee"></i> 
-        </div>
-        
 
         <div class="container">
             <nav class="nav-main">
+                        
+                <div class="menu-btn">
+                    <i class="fas fa-coffee"></i> 
+                </div>
+        
                 <img src="./assets//Duck.jpg" alt="logo" class="nav-brand">
                 <ul class="nav-menu show">
                     <li>
@@ -73,8 +73,7 @@
                 <div class="roast">
                     <h1>Types of Roasts</h1>
                     <div class="roast_left">
-                        <img src="./assets/lightroast.jpg" alt="Light roast." style="width: 250px; height: 250px; left: 0px; top: 0px; position: absolute; border-radius: 500px" src="https://via.placeholder.com/250x250">
-                        <div style="width: 960px; height: 225px; left: 255px; top: 20px; position: absolute; "></div>
+                        <img src="./assets/lightroast.jpg" alt="Light roast.">
                         <div class="left">
                             <h3>Light roast.</h3>
                             <p>Light roasts are roasted for the least amount of time. Lightly roasted beans generally reach an internal temperature of 356°F – 401°F, right after the first crack occurs. These beans tend to not have the oils on them because they haven’t been roasted at a high enough temperature. The longer a bean is roasted the more the heat pulls out the caffeine and the acidity. This means light roasts have the most caffeine (by volume) and the most acidity.</p>
@@ -82,7 +81,6 @@
                     </div>
                     <div class="roast_right">
                         <img src="./assets/mediumroast.jpg" alt="Medium roast.">
-                        <div style="width: 960px; height: 225px; left: 0px; top: 15px; position: absolute; "></div>
                         <div class="right">
                             <h3>Medium roast.</h3>
                             <p>Medium roasted coffee reaches internal temperatures of 410°F-428°F. This is after the first crack and just before the second one occurs. They have a little bit more body than a light roast and less acidity. These roasts are considered to have balanced flavors. The acidity and body of a medium roast can vary but are usually somewhere in the middle.</p>
@@ -90,15 +88,13 @@
                     </div>
                     <div class="roast_left">
                         <img src="./assets/mediumdarkroast.jpg" alt="Medium dark roast.">
-                        <div style="width: 960px; height: 225px; left: 255px; top: 20px; position: absolute; "></div>
                         <div class="left">
                             <h3>Medium dark roast.</h3>
                             <p>Beans roasted to medium-dark reach an internal temperature of 437°F – 446°F. This is during or just after the second crack. This roast will also start showing the oils on the beans’ surface because the temperatures are high enough. These roasts have a richer, fuller flavor, more body, and less acidity.</p>
                         </div>
                     </div>
                     <div class="roast_right">
-                        <img src="./assets/darkroast.jpg" alt="Dark roast">
-                        <div style="width: 960px; height: 260px; left: 0px; top: 20px; position: absolute; "></div>
+                        <img src="./assets/darkroast.jpg" alt="Dark roast.">
                         <div class="right">
                             <h3>Dark roast.</h3>
                             <p>The roasting temperature for a dark roast is between 464°F – 482°F. There are visible oils on dark roast beans. Dark roasts have sweeter flavors because the sugars in the coffee beans have time to caramelize. The longer roasting process helps it to develop a richer flavor and full body, which often leads to it having a buttery finish. They also have the least acidity of all coffee roasts.  Dark roasts have the least amount of caffeine because they’re roasted the longest. Dark roasts have the least amount of caffeine because they’re roasted the longest.</p>
@@ -132,10 +128,20 @@
                         <br/>
                         <div class="process_container" style="background-color: white; border-radius: 15px;">
                             <img alt="french-press" src="./assets/french-press.png" style="width: 12%; padding: 20px; transform: rotate(15deg);"/>
-                            <p><br/>Preheat your French press by rinsing it with hot water(it helps maintain the temperature stability during brewing). Measure the coffee beans; I do around 7 grams per 200 ml of water(14 grams for a 360 ml cup. My own preference). Then add the coffee grounds to the bottom of the French press.
-                            <br/>Carefully pour hot water over the coffee grounds(only enough to cover the coffee grounds), and stir to ensure even saturation. Allow the coffee to bloom for about 30 seconds(at this time I already have the timer running); Add the rest of the water, place the lid and wait the remaining of the 4 minutes in total.
-                            <br/>When the timer stops, slowly press down the plunger in a smooth and steady motion. Once pressed, immediately pour the brewed coffee into your mug to prevent over-extraction.
-                            <br/><br/>Take a moment to savor the aroma, and indulge in the rich, full-bodied flavor of your freshly brewed French press coffee!</p>
+                            <ul class="step_list">
+                                <li>
+                                    <p>
+                                        Preheat your French press by rinsing it with hot water(it helps maintain the temperature stability during brewing). Measure the coffee beans; I do around 7 grams per 200 ml of water(14 grams for a 360 ml cup. My own preference). Then add the coffee grounds to the bottom of the French press.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Carefully pour hot water over the coffee grounds(only enough to cover the coffee grounds), and stir to ensure even saturation. Allow the coffee to bloom for about 30 seconds(at this time I already have the timer running); Add the rest of the water, place the lid and wait the remaining of the 4 minutes in total.</p>
+                                </li>
+                                <li>
+                                    <p>When the timer stops, slowly press down the plunger in a smooth and steady motion. Once pressed, immediately pour the brewed coffee into your mug to prevent over-extraction.
+                                    <br/><br/>Take a moment to savor the aroma, and indulge in the rich, full-bodied flavor of your freshly brewed French press coffee!</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div class="pour-over">
@@ -152,15 +158,25 @@
                         <br/>
                         <div class="pour-over_container" style="display: flex; align-items: center; background-color: white; border-radius: 15px;">
                             <img src="./assets/pour-over.png" alt="pour-over" style="width: 12%; padding: 20px; transform: rotate(18deg);">
-                            <p><br/>
-                            Place the pour-over dripper on top of your mug or carafe and insert a paper filter, and rinse the filter with hot water to remove any paper taste and preheat the brewing vessel.
-                            <br/>
-                             Weigh out the desired amount of coffee grounds according to your preferred coffee-to-water ratio. Grind the coffee to a medium-fine consistency, similar to coarse sand.
-                            <br/>Place the coffee grounds in the rinsed filter and gently shake to level the bed.
-                            <br/>Start the timer and pour a small amount of hot water (about twice the weight of the coffee grounds) over the grounds to fully saturate them. Allow the coffee to bloom for 30-45 seconds. 
-                            <br/>After the blooming period, begin pouring hot water in a slow, steady stream over the coffee grounds in a circular motion. Continue pouring until you reach the desired brew weight, typically around 2-3 times the weight of the coffee grounds.
-                            <br/>The entire brewing process should take approximately 3-4 minutes from start to finish.
-                            <br/>Once the dripping has ceased, remove the pour-over dripper from the brewing vessel. Give the coffee a gentle stir to ensure uniformity and then serve immediately.</p>
+                            <ul class="step_list">
+                                <li>
+                                    <p>Place the pour-over dripper on top of your mug or carafe and insert a paper filter, and rinse the filter with hot water to remove any paper taste and preheat the brewing vessel.</p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Weigh out the desired amount of coffee grounds according to your preferred coffee-to-water ratio. Grind the coffee to a medium-fine consistency, similar to coarse sand.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Place the coffee grounds in the rinsed filter and gently shake to level the bed. Start the timer and pour a small amount of hot water (about twice the weight of the coffee grounds) over the grounds to fully saturate them. Allow the coffee to bloom for 30-45 seconds. </p>
+                                </li>
+                                <li>
+                                    <p>After the blooming period, begin pouring hot water in a slow, steady stream over the coffee grounds in a circular motion. Continue pouring until you reach the desired brew weight, typically around 2-3 times the weight of the coffee grounds.</p>
+                                </li>
+                                <li>
+                                    <p>The entire brewing process should take approximately 3-4 minutes from start to finish. Once the dripping has ceased, remove the pour-over dripper from the brewing vessel. Give the coffee a gentle stir to ensure uniformity and then serve immediately.</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -168,14 +184,14 @@
 
             <!-- COFFEE BY COUNTRIES -->
             <section id="coffeeByCountries">
+                <h1>GET TO KNOW SOME COUNTRIES & THEIR TYPES OF <span style="color: #996d20;">COFFEE.</span></h1>
                 <div class="countries_container" style="margin: 40px;">
-                    <h1>GET TO KNOW SOME COUNTRIES & THEIR TYPES OF <span style="color: #996d20;">COFFEE.</span></h1>
 
                     <div class="brazil">
                         <h2 class="countries_names">Brazil</h2>
                         <div class="details">
                             <img src="./assets/brasil.png" alt="Brasil" class="flags">
-                            <div class="info_country">
+                            <div class="info_country active">
                                 <p class="info">Brazil is the largest country in Latin America and the fifth largest country in the world. Brazil is a diverse country with a rich history and culture. It is a popular tourist destination, known for its beaches, rainforests, mountains, and historic cities. <br /><br />Its climate is tropical in most regions. How does this help the coffee production?
                                 <br/>Tropical climates are ideal for coffee production, it provides:
                                 <br/>Warm temperatures, High humidity & Abundant rainfall. In addition to these conditions, tropical climates also provide fertile soil and plenty of sunshine, which are also important for coffee bean production.
@@ -185,6 +201,7 @@
                                 <br />The main coffee-producing states in Brazil are Minas Gerais, São Paulo, Paraná, and Bahia.
                                 <br /><br />Coffee is an important part of Brazilian culture. It is consumed throughout the country, from cities to rural areas. Brazilian coffee is popular all over the world, and is exported to over 150 countries.
                                 </p>
+                                <span id="span"></span>
                             </div>
                         </div>
                     </div>
@@ -192,9 +209,8 @@
                     <div class="colombia">
                         <h2 class="countries_names">Colombia</h2>
                         <img src="./assets/colombia.png" alt="Colombia" class="flags">
-                        <div class="info_country">
-                            <div class="info">
-                                <p>Colombia is the second most biodiverse country in the world, after Brasil. It is known for its coffee, mountains, rainforests, and beaches.
+                        <div class="info_country active">
+                                <p class="info">Colombia is the second most biodiverse country in the world, after Brasil. It is known for its coffee, mountains, rainforests, and beaches.
                                     <br/>Colombia is a major producer of coffee, bananas, and flowers.
                                     <br />Colombia has a long history of coffee production. The first coffee plants were introduced to Colombia in the 16th century by Spanish settlers. Coffee quickly became an important crop for Colombia, and it remains one of the country's most important export products today.
                                     <br /><br />
@@ -207,31 +223,29 @@
                                     <br />Also known for its diversity. Colombia produces a wide variety of coffee beans, each with its own unique flavor profile. This allows coffee roasters to create a wide variety of coffee blends to suit different tastes.
                                     <br /><br />If you are looking for a high-quality coffee with a delicious flavor, Colombian coffee is a great option!
                                     </p>
-                            </div>
+                            <span id="span"></span>
                         </div>
                     </div>
 
                     <div class="vietnam">
                         <h2 class="countries_names">Vietnam</h2>
                         <img src="./assets/vietnam.png" alt="Vietnam" class="flags">
-                        <div class="info_country">
-                            <div class="info">
-                                <p>Vietnam is a country in Southeast Asia. It is known for its natural beauty, including its beaches, mountains, and rainforests. Vietnam is also known for its delicious food, such as pho, banh mi, and bun cha.
+                        <div class="info_country active">
+                                <p class="info">Vietnam is a country in Southeast Asia. It is known for its natural beauty, including its beaches, mountains, and rainforests. Vietnam is also known for its delicious food, such as pho, banh mi, and bun cha.
                                 <br /><br />Vietnam is a major producer of coffee and rice.
                                 <br />Second largest producer of coffee in the world, after Brazil. Known for its strong, bold flavor; typically brewed using a phin, which is a small metal filter that sits on top of a cup, usually served with condensed milk and ice.
                                 <br />Their coffee is made from robusta beans, which are known for their strong flavor and high caffeine content. Often roasted to a very dark level, which gives it a smoky, earthy flavor.
                                 <br /><br />Vietnamese coffee is a popular drink all over the world, and it is especially popular in Southeast Asia. It is a delicious and unique coffee experience that is sure to please coffee lovers everywhere.
                                 </p>
-                            </div>
+                            <span id="span"></span>
                         </div>
                     </div>
 
                     <div class="etiopia">
                         <h2 class="countries_names">Ethiopia</h2>
                         <img src="./assets/etiopia.png" alt="Etiopía" class="flags">
-                        <div class="info_country">
-                            <div class="info">
-                                <p>Ethiopia is a country in the Horn of Africa. Second most populous country in Africa, after Nigeria. Also, oldest countries in the world, with a history that dates back over 3,000 years.
+                        <div class="info_country active">
+                                <p class="info">Ethiopia is a country in the Horn of Africa. Second most populous country in Africa, after Nigeria. Also, oldest countries in the world, with a history that dates back over 3,000 years.
                                 <br /> It is home to over 115 million people, who speak over 80 different languages. Ethiopia is also home to a variety of ethnic groups, each with its own unique culture and traditions.
                                 <br /><br />Ethiopia is the birthplace of coffee, and it is one of the world's leading producers of coffee. Known for its unique and complex flavor profile, which is often described as fruity, floral, and winey.
                                 <br />Ethiopian coffee is grown in a variety of regions, each with its own unique flavor profile. Some of the most famous Ethiopian coffee regions include:
@@ -241,16 +255,15 @@
                                 <br /><br />Ethiopian coffee is processed using a variety of methods, including the washed method, the natural method, and the sun-dried method. Home to over 1,000 different varieties of coffee beans, each with its own unique flavor profile.
                                 <br />With its wide variety of flavor profiles, Ethiopian coffee has something to offer everyone.
                                 </p>
-                            </div>
+                            <span id="span"></span>
                         </div>
                     </div>
 
                     <div class="costa_rica">
                         <h2 class="countries_names">Costa Rica</h2>
                         <img src="./assets/costa-rica.png" alt="Costa Rica" class="flags">
-                        <div class="info_country">
-                            <div class="info">
-                                <p>Costa Rica is a country in Central America. 
+                        <div class="info_country active">
+                                <p class="info">Costa Rica is a country in Central America. 
                                 <br />Small country, but it is packed with diversity. It is home to rainforests, cloud forests, dry forests, mangroves, beaches, and volcanoes. Costa Rica is also home to a wide variety of wildlife, including monkeys, sloths, toucans, and sea turtles.
                                 <br /><br />Costa Rica is known for producing high-quality coffee. Costa Rican coffee is typically grown at high altitudes, which gives it a bright and complex flavor profile. Costa Rican coffee is also known for its smooth body and rich aroma.
                                 <br />Costa Rica has a long history of coffee production. The first coffee plants were introduced to Costa Rica in the late 1700s, and coffee quickly became an important crop for the country.
@@ -263,23 +276,22 @@
                                 <br />Brunca: This region is known for producing coffee with a sweet, fruity flavor.
                                 <br /><br />Costa Rican coffee is a delicious and versatile coffee that can be enjoyed in a variety of ways. Whether you like your coffee black, with milk and sugar, or in a latte, Costa Rican coffee is sure to please.
                                 </p>
-                            </div>
+                            <span id="span"></span>
                         </div>
                     </div>
 
                     <div class="argentina">
                         <h2 class="countries_names">Argentina</h2>
                         <img src="./assets/argentina.jpg" alt="Argentina" class="flags">
-                        <div class="info_country">
-                            <div class="info">
-                                <p>There is some coffee production in Salta, Argentina. However, it is a relatively small industry.
+                        <div class="info_country active">
+                                <p class="info">There is some coffee production in Salta, Argentina. However, it is a relatively small industry.
                                 <br /><br />The coffee that is produced in Salta is typically grown in the Yungas region, which is a subtropical cloud forest located in the eastern part of the province. The Yungas region has a climate that is ideal for growing coffee, with warm temperatures, high humidity, and abundant rainfall.
                                 <br />It is known for its smooth body, rich aroma, and complex flavor profile.
                                 <br /><br />What is a coffee brand produced in Argentina?
                                 <br />Café Baritú, a relatively new coffee brand, but it has quickly gained a reputation for its high quality. The coffee is roasted in small batches and is available in a variety of roasts, from light to dark.
                                 <br />Café Baritú is a great option for coffee lovers who are looking for a high-quality coffee with a unique flavor profile. The coffee is also a good choice for people who are looking for a sustainable coffee option. Café Baritú is produced using sustainable methods and is certified by Rainforest Alliance.
                                 </p>
-                            </div>
+                            <span id="span"></span>
                         </div>
                     </div>
                 </div>
