@@ -16,11 +16,14 @@ window.scrollTo({ top: document.getElementById("coffeeByCountries").offsetTop })
 
 // Read more:
 
-const spanElement = document.getElementById('span');
-const infoCountryElement = document.querySelector('.info_country');
+let more = document.querySelectorAll('.more');
 
-spanElement.addEventListener('click', function() {
-  infoCountryElement.classList.toggle('active');
-  spanElement.textContent = infoCountryElement.classList.contains('active') ? 'show less' : 'show more';
-});
+for(let i = 0; i < more.length; i++) {
+  more[i].addEventListener('click', function() {
+    more[i].parentNode.classList.toggle('active');
+  });
+};
+
+
+
 
